@@ -1,0 +1,33 @@
+{
+  "scripts": {
+      "build": "webpack --mode production",
+      "start": "webpack --color --progress --mode development",
+      "server": "webpack-dev-server"
+  },
+  "dependencies": {
+      "@babel/plugin-proposal-class-properties": "^7.14.5",
+      "@babel/plugin-transform-runtime": "^7.15.0",
+      "@babel/preset-env": "^7.15.4",
+      "@babel/preset-react": "^7.14.5",
+      "babel-loader": "^8.2.2",
+      "body-parser": "^1.19.0",
+      "copy-webpack-plugin": "^9.0.1",
+      "css-loader": "^6.2.0",
+      "express": "^4.17.1",
+      "history": "^5.0.0",
+      "react": "^17.0.1",
+      "react-dom": "^17.0.1",
+      "react-router": "^5.2.0",
+      "react-router-dom": "^5.2.1",
+      "webpack": "^5.52.0",
+      "webpack-dev-server": "^4.1.0"
+  },
+  "name": "database",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+      "webpack-cli": "^4.8.0"
+  }
+}
